@@ -31,7 +31,7 @@ export default [
   },
   {
     id: 'q4',
-    text: 'What was the name of hair of Isildur?',
+    text: 'What was the name of heir of Isildur?',
     answers: [
       'Aragorn',
       'Boromir',
@@ -67,6 +67,16 @@ export default [
       '562',
       '430',
       'Unknown',
+    ],
+  },
+  {
+    id: 'q8',
+    text: 'Whom did the Balrog serve?',
+    answers: [
+      'Morgoth',
+      'The Witchking',
+      'Sauron',
+      'Saruman',
     ],
   },
 ];
