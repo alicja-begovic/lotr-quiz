@@ -62,7 +62,7 @@ header h1 {
 #last-try h2 {
   margin: 0;
   font-size: 1rem;
-  color: #9c7fd3;
+  color: #d3af7f;
   text-transform: uppercase;
 }
 
@@ -80,7 +80,7 @@ header h1 {
   max-width: 50rem;
   margin: auto;
   padding: 2rem;
-  background: linear-gradient(180deg, #3e2a60 0%, #321061 100%);
+  background: linear-gradient(180deg, #60472a 0%, #613e10 100%);
   border-radius: 8px;
   /* box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6); */
   box-shadow: 1px 1px 8px 4px rgba(12, 5, 32, 0.6);
@@ -90,7 +90,7 @@ header h1 {
 #question-overview {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8rem;
-  color: #9082a3;
+  color: #a39a82;
   margin: 0;
   text-transform: uppercase;
 }
@@ -99,17 +99,17 @@ header h1 {
   width: 50%;
   height: 0.5rem;
   border-radius: 24px;
-  background: #9e5ef8;
+  background: #a57328;
   margin: 0;
 }
 
 #question progress::-webkit-progress-bar {
-  background: #6a558a;
+  background: #5d562b;
   border-radius: 24px;
 }
 
 #question progress::-webkit-progress-value {
-  background: #9e5ef8;
+  background: #f8d45e;
   border-radius: 24px;
 }
 
@@ -122,7 +122,7 @@ header h1 {
 }
 
 #question progress.answered::-webkit-progress-bar {
-  background: #6a558a;
+  background: #8a7555;
 }
 
 #question h2 {
@@ -130,7 +130,7 @@ header h1 {
   font-size: 1.5rem;
   font-weight: normal;
   margin: 0.5rem 0 2.5rem 0;
-  color: #c1b2dd;
+  color: #ddcdb2;
 }
 
 #answers {
@@ -157,7 +157,7 @@ header h1 {
   border: none;
   border-radius: 24px;
   /* background: linear-gradient(180deg, #81f1fb 0%, #73d2f8 100%); */
-  background: #6cb7f5;
+  background: #e3f56c;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
@@ -165,7 +165,7 @@ header h1 {
 .answer button:hover,
 .answer button:focus {
   /* background: linear-gradient(180deg, #bf48f6 0%, #9b50f2 100%); */
-  background: #9d5af5;
+  background: #f59d5a;
   color: white;
   /* box-shadow: 0 0 4px 2px rgba(255, 200, 60, 0.8); */
 }
@@ -185,7 +185,7 @@ header h1 {
 .answer button.wrong {
   /* background: linear-gradient(180deg, #f96fb1 0%, #f52b8c 100%); */
   background: #cc4141;
-  color: #2c203d;
+  color: #3d3720;
 }
 
 #skip-action {
