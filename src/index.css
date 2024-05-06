@@ -332,3 +332,19 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+  #summary-stats {
+    display: block;
+    text-align: center;
+    /* font-size: 2rem; */
+  }
+
+  #summary-stats .number {
+    font-size: 2rem;
+  }
+
+  #summary h2 {
+    font-size: 2rem;
+  }
+}
